@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FA6_Samama</title>
+  <style>
+    a.link1 {
+      color: blue;
+      background-color: lightgray;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    a.link1:link {
+      background-color: pink;
+    }
+
+    a.link1:hover {
+      color: white;
+      background-color: darkblue;
+    }
+
+    a.link1:active {
+      color: red;
+      background-color: yellow;
+    }
+
+    a.link1:visited {
+      color: purple;
+      background-color: lavender;
+    }
+
+    a.link2 {
+      color: green;
+      background-color: lightyellow;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    a.link2:hover {
+      color: white;
+      background-color: darkgreen;
+    }
+
+    a.link2:active {
+      color: orange;
+      background-color: lightgreen;
+    }
+
+    a.link2:visited {
+      color: brown;
+      background-color: wheat;
+    }
+
+    #div1 {
+	  color: white;
+	  max-width: 100px;
+	  height: 80px;
+      margin: 10px;
+      padding: 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+
+    #div2 {
+	  color: white;
+	  max-width: 100px;
+	  height: 80px;
+      margin: 10px;
+      padding: 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+
+    #div1:target {
+      background-color: pink;
+      color: darkblue;
+    }
+
+    #div2:target {
+	  background-color:#90EE90;
+	  color:white;
+      border: 10px dotted green;
+    }
+	body {
+            background-image: url('hi.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+  </style>
+</head>
+<body>
+
+  <a href="#div1" class="link1">First Link</a>
+  <a href="#div2" class="link2">Second Link</a>
+
+  <br>
+  <div id="div1">div 1 here</div>
+  <div id="div2">div 2 here</div>
+
+</body>
+</html>
